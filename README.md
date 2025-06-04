@@ -31,7 +31,7 @@ The code creates an L x L square grid where each cell is
 This simulates a porous material or a network where only some paths are active.
 
 ### 2. Cluster Labeling
-Using a basic depth-first search (DFS) algorithm, the code finds and labels each connected region of open sites. Each "cluster" gets a unique label so we can track it.
+Using a depth-first search (DFS) algorithm, the code finds and labels each connected region of open sites. Each "cluster" gets a unique label so we can track it.
 
 The figure below shows a 6×6 lattice where we check for **horizontal percolation** i.e, whether there exists a continuous path of connected open sites from the **leftmost column** to the **rightmost column**.
 
